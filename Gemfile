@@ -37,6 +37,7 @@ gem 'thor', '0.19.1'
 
 group :development do
   gem 'listen', '~> 3.0.5'
+  gem 'pry-rails'
 end
 
 group :development, :test do
