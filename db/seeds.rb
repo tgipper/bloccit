@@ -17,6 +17,8 @@ end
 
 Post.find_or_create_by!(title: "Unique Title", body: "Unique Body")
 
+Comment.find_or_create_by!(post: Post.find_or_create_by!(title: "Unique Title"), body: "Unique body text.")
+
 
 
 puts "Seed finished"
